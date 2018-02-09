@@ -68,20 +68,6 @@ public class MainActivity extends AppCompatActivity implements LoaderCallbacks<C
         mHogFormView = findViewById(R.id.hog_form);
         mProgressView = findViewById(R.id.hog_progress);
         mHogInfoView = findViewById(R.id.hog_info_text);
-        new Thread(new Runnable(){
-
-            @Override
-            public void run() {
-                while(true){
-
-                    try {
-                        Thread.sleep(500);
-                    } catch (InterruptedException e) {
-                        e.printStackTrace();
-                    }
-                }
-            }
-        });
     }
 
     @Override
