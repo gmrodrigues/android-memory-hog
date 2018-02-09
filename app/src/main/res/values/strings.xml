@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">AndroidMemoryHog</string>
+
+    <!-- Strings related to login -->
+    <string name="action_lets_hog">Lets Hog!</string>
+</resources>
